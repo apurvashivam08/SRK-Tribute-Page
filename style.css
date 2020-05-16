@@ -1,0 +1,168 @@
+body{
+	background-color: #5b5656;
+	background-image: url("carousel.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 3%;
+	font-size: 4rem;
+	line-height: 1.5;
+	font-family: 'Ubuntu', sans-serif;
+}
+h3{
+	color: #fff;
+}
+nav{
+	text-align: center;
+	font-size: 1.4rem;
+	padding-bottom: 3%;
+}
+a{
+	margin: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*header*/
+.heading{
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+/*quotes*/
+#quotes{
+	text-align: center;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;	
+	font-size: 1.6rem;
+}
+.carousel-inner{
+	height: 340px;
+
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+#acting-career,#donation, #honors, #family{
+	margin: 50px;
+
+}
+.acting-p{
+	color: #adae9d;
+}
+
+a:hover{
+	color: #000;
+
+}
+
+/*modal styling*/
+.modal-header,.modal-footer{
+	background-color: #000;
+	color: #fff; 
+}
+.modal-body{
+	background-color: #2d2e2f;
+	color: #000; 
+}
+.close{
+	color: #fff;
+}
+/*footer*/
+hr{
+	border: dotted #7a8b88 2px;
+	border-bottom: none;
+	width: 75%;
+	}
+#footer{
+	padding-top: 5%;
+	text-align: center;
+	color: #828282;
+	font-size: 1.2rem;
+}
+.social-icon{
+	margin: 20px 15px;
+}
+.social-icon:hover, .ft-a:hover{
+	color: #adae9d;
+}
+
+/*modal body background*/
+.early-life{
+	background-image: url("early-life.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.acting{
+	background-image: url("acting.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.donation{
+	background-image: url("donation.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.honors{
+	background-image: url("honors.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+
+/*media quries*/
+@media (max-width: 660px){
+	body{
+		background-image: url("carousel1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment:fixed;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	.heading{
+		font-size: 1rem;
+	}
+	nav{
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: 3%;
+	}
+	a{
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	}
+	h2{
+		font-size: 80%;
+	}
+	em{
+		font-size: 60%;
+	}
+	.social-icon{
+	margin: 20px 2px;
+	}
+	#acting-career, #donation, #honors, #family{
+		background-color: #5252526b;
+		padding: 3%;
+		border-radius: 8%;
+	}
+	.acting-p{
+		color: #d4d9de;
+	}
+	.carousel-inner{
+	height: 250px;
+	margin-top: 5px;
+	}
+}
