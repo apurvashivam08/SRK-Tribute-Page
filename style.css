@@ -116,10 +116,7 @@ hr{
 }
 
 /*media quries*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
+@media (max-width: 660px){
 	body{
 		background-image: url("carousel1.jpg");
 		background-repeat: no-repeat;
