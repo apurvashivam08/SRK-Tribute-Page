@@ -156,3 +156,20 @@ hr{
 	margin-top: 5px;
 	}
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+	.modal-body{
+	background-color: #fff;
+	color: #000; 
+	}
+	body{
+		background-image: url("carousel2.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment:fixed;
+	}
+	
+}
