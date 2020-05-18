@@ -2,7 +2,7 @@ body{
 	background-color: #000;
 	background-image: url("carousel.jpg");
 	background-repeat: no-repeat;
-	background-position: center center;
+        background-position: center center;
 	background-attachment:fixed;
 	font-family: 'Roboto', sans-serif;
 }
@@ -168,7 +168,7 @@ and (orientation : portrait) {
 	body{
 		background-image: url("carousel2.jpg");
 		background-repeat: no-repeat;
-		background-position: center center;
+/* 		background-position: center center; */
 		background-attachment:fixed;
 	}
 	
