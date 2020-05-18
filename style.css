@@ -1,5 +1,5 @@
 body{
-	background-color: #5b5656;
+	background-color: #000;
 	background-image: url("carousel.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -16,11 +16,6 @@ h1{
 }
 h3{
 	color: #fff;
-}
-nav{
-	text-align: center;
-	font-size: 1.4rem;
-	padding-bottom: 3%;
 }
 a{
 	margin: 20px;
@@ -69,7 +64,7 @@ a:hover{
 	color: #fff; 
 }
 .modal-body{
-	background-color: #2d2e2f;
+	background-color: #fff;
 	color: #000; 
 }
 .close{
@@ -121,7 +116,10 @@ hr{
 }
 
 /*media quries*/
-@media (max-width: 660px){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
 	body{
 		background-image: url("carousel1.jpg");
 		background-repeat: no-repeat;
@@ -133,11 +131,6 @@ hr{
 	}
 	.heading{
 		font-size: 1rem;
-	}
-	nav{
-	text-align: center;
-	font-size: 1rem;
-	padding-bottom: 3%;
 	}
 	a{
 	margin: 10px;
